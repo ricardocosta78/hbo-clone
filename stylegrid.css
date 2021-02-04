@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  background-image: url('http://unsplash.it/1000/800?gravity=center');
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  color: blanchedalmond;
+  text-align: center;
+  margin: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 3rem 1rem;
+  margin: 2rem;
+}
+
+.callgrid {
+  display: flex;
+  flex-direction: column;
+}
